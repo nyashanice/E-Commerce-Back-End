@@ -12,6 +12,7 @@ Tag.init(
       allowNull: false,
       primaryKey: true,
       autoIncrement: true,
+      onDelete: "cascade",
     },
     tag_name: {
       type: DataTypes.STRING,

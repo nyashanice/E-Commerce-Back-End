@@ -12,6 +12,7 @@ ProductTag.init(
       allowNull: false,
       primaryKey: true,
       autoIncrement: true,
+      onDelete: "cascade",
     },
 
     product_id: {
